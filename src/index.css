@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "ARSMaquette";
+  src: url("./fonts/ARSMaquettePro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 h1 {
 font-family: 'Montserrat', sans-serif;
 }

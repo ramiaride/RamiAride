@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './styles/HeroSection.css';
-import heroImage1 from '/assets/3.png';
-import heroImage2 from '/assets/5.png';
+import heroImage1 from '/assets/f5.jpg';
+import heroImage2 from '/assets/F2.jpg';
 
 function HeroSection() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -16,9 +16,9 @@ function HeroSection() {
   return (
     <section className="hero" id="hero">
       <p>
-        YOU CAN NEVER KNOW YOUR LIMITS IF YOU'RE OVERTHINKING INSTEAD OF TRYING.
+        You can never know your limits if you're overthinking instead of trying.
         <br />
-        <br />- RAMI ARIDE
+        
       </p>
       <div className="hero-overlay">
         <img

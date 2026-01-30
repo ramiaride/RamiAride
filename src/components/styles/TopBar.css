@@ -15,8 +15,9 @@
 }
 
 .logo {
-  margin-top: 3%;
-  cursor: pointer;
+  margin-top: 5%;
+
+ 
 }
 
 .logo-img {
@@ -43,7 +44,7 @@ button{
   
   box-shadow: 10px 10px 10px (rgba(255, 255, 255, 0.492));
 
-  margin-bottom: 10px;
+  
   font-size: 15px;
 border-top: #3493b9;
 border-right: #a6af9d3a;
