@@ -1,6 +1,6 @@
-import React from 'react';
-import Product from './components/productdesign-com/product';
-import Topbar from '../components/TopBar';
+import React from "react";
+import Product from "./components/productdesign-com/product";
+import Topbar from "../components/TopBar";
 
 function ProductDesign() {
   const products_dir = "/assets/products/";
@@ -11,22 +11,102 @@ function ProductDesign() {
   const cocel = products_dir + "Cocel/";
   const icechair = products_dir + "Ice-chair/";
   const igloo = products_dir + "Igloo/";
+  const vtub = products_dir + "vtub/";
+  const mcBench = products_dir + "mc bench/";
 
   return (
-    <div style={{ padding: '40px 20px' }}>
-     
+    <div style={{ padding: "40px 20px" }}>
+      <Product
+        title="MC Bench"
+        subtitle="2026"
+        description="Modern design of a picnic bench that keeps the normally used measurements but changes the shape to one that gives more freedom for arrangements and moving in between the bench's parts. designed and finished with the nature color pallette to fit in any environment."
+        mainImage={mcBench + "portfolio.png"}
+        MainImageStyle={{
+          width: "540px",
+          height: "415px",
+          objectFit: "contain",
+          transform: "translate(-25px, -45px)",
+        }}
+        carouselImages={[
+          {
+            src: mcBench + "YES1.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: mcBench + "YES2.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: mcBench + "YES3.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: mcBench + "YES4.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+        ]}
+      />
+      <Product
+        title="VTUB"
+        subtitle="2026"
+        description="The design of the bathtub is inspired by the Voronoi structure, giving it a more modern and luxurious appearance. In addition, a wooden shelf wraps around the left side of the tub, designed to hold towels, body products, as well as drinks or snacks."
+        mainImage={vtub + "foor web.png"}
+        MainImageStyle={{
+          width: "490px",
+          height: "375px",
+          objectFit: "contain",
+          transform: "translateX(-25px)",
+        }}
+        carouselImages={[
+          {
+            src: vtub + "carousel/F1.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: vtub + "carousel/F3.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: vtub + "carousel/F4.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+          {
+            src: vtub + "carousel/f5.jpg",
+            style: { transform: "scale(1.1) translate(0px, 0px)" },
+          },
+        ]}
+      />
+
       <Product
         title="TRIEND"
         subtitle="2025"
         description="Triend is a thesis project for BA in interior and product design, focusing on the product designing as it is a special table designed to solve a very common problem that we may face in our daily life which is the weak or unsuccessful interactions among individuals. The table has many features that are made to solve different problems or to provide more solutions to same problem, main feature is the fidgets tool built in the table that play a huge role in self mastering and self regulation. As also the one of the main purposes of this design is reducing social stress and anxiety and promote confidence and calmness, which makes this product suitable for any kind of audience and for any kind of environment."
         mainImage={triend + "Triendmain.png"}
         carouselImages={[
-          { src: triend + carousel_imgs + "triend1.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
-          { src: triend + carousel_imgs + "triend2.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
-          { src: triend + carousel_imgs + "triend3.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
-          { src: triend + carousel_imgs + "triend4.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
-          { src: triend + carousel_imgs + "triend5.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
-          { src: triend + carousel_imgs + "triend6.jpg", style: { transform: 'scale(1.2) translate(10px, -10px)' } },
+          {
+            src: triend + carousel_imgs + "triend1.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
+          {
+            src: triend + carousel_imgs + "triend2.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
+          {
+            src: triend + carousel_imgs + "triend3.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
+          {
+            src: triend + carousel_imgs + "triend4.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
+          {
+            src: triend + carousel_imgs + "triend5.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
+          {
+            src: triend + carousel_imgs + "triend6.jpg",
+            style: { transform: "scale(1.2) translate(10px, -10px)" },
+          },
         ]}
       />
 
@@ -36,13 +116,28 @@ function ProductDesign() {
         description="Thunder shaving machine is uniquely designed with cracks on the surface that are inspired by the shape of the thunder. It is designed to be light and easily portable, with the inclination of the body surface that makes the holding of the machine more comfortable and stable. Moreover, the machine can have different coloring options which can match different needs of the consumers."
         descMarginTop={80}
         mainImage={thunder + "SHAVING MACHINE.png"}
-        MainImageStyle={{ transform: 'scale(0.8) translate(0px, -40px)' }}
+        MainImageStyle={{ transform: "scale(0.8) translate(0px, -40px)" }}
         carouselImages={[
-          { src: thunder + carousel_imgs + "C1.jpg", style: { transform: 'scale(1.06)' } },
-          { src: thunder + carousel_imgs + "C2.jpg", style: { transform: 'scale(1.06)' } },
-          { src: thunder + carousel_imgs + "C3.png", style: { transform: 'scale(1)' } },
-          { src: thunder + carousel_imgs + "C4.png", style: { transform: 'scale(1)' } },
-          { src: thunder + carousel_imgs + "C5.png", style: { transform: 'scale(1)' } },
+          {
+            src: thunder + carousel_imgs + "C1.jpg",
+            style: { transform: "scale(1.06)" },
+          },
+          {
+            src: thunder + carousel_imgs + "C2.jpg",
+            style: { transform: "scale(1.06)" },
+          },
+          {
+            src: thunder + carousel_imgs + "C3.png",
+            style: { transform: "scale(1)" },
+          },
+          {
+            src: thunder + carousel_imgs + "C4.png",
+            style: { transform: "scale(1)" },
+          },
+          {
+            src: thunder + carousel_imgs + "C5.png",
+            style: { transform: "scale(1)" },
+          },
         ]}
       />
 
@@ -51,13 +146,25 @@ function ProductDesign() {
         subtitle="2025"
         description="Ice chair is inspired by ice in general and every part of it represents a different form, for example the arms represent the smoothness of the ice, the decorative part inside the arms represents the ice flakes and the small legs for stability represent the ice cubes. It is designed to be both stable and very comfortable with the thick cushions and the smooth arms that are curved."
         mainImage={icechair + "yessir.png"}
-        MainImageStyle={{ transform: 'scale(1) translate(0px, -40px)' }}
+        MainImageStyle={{ transform: "scale(1) translate(0px, -40px)" }}
         descMarginTop={70}
         carouselImages={[
-          { src: icechair + carousel_imgs + "I1.jpg", style: { transform: 'scale(1.05)' } },
-          { src: icechair + carousel_imgs + "I2.jpg", style: { transform: 'scale(1.05)' } },
-          { src: icechair + carousel_imgs + "I3.png", style: { transform: 'scale(1)' } },
-          { src: icechair + carousel_imgs + "I4.png", style: { transform: 'scale(1)' } },
+          {
+            src: icechair + carousel_imgs + "I1.jpg",
+            style: { transform: "scale(1.05)" },
+          },
+          {
+            src: icechair + carousel_imgs + "I2.jpg",
+            style: { transform: "scale(1.05)" },
+          },
+          {
+            src: icechair + carousel_imgs + "I3.png",
+            style: { transform: "scale(1)" },
+          },
+          {
+            src: icechair + carousel_imgs + "I4.png",
+            style: { transform: "scale(1)" },
+          },
         ]}
       />
 
@@ -68,10 +175,22 @@ function ProductDesign() {
         mainImage={cocel + "Cocelmain.jpg"}
         descMarginTop={60}
         carouselImages={[
-          { src: cocel + carousel_imgs + "CO1.jpg", style: { transform: 'scale(1.05)' } },
-          { src: cocel + carousel_imgs + "CO2.jpg", style: { transform: 'scale(1.05)' } },
-          { src: cocel + carousel_imgs + "CO3.png", style: { transform: 'scale(1)' } },
-          { src: cocel + carousel_imgs + "CO4.png", style: { transform: 'scale(1)' } },
+          {
+            src: cocel + carousel_imgs + "CO1.jpg",
+            style: { transform: "scale(1.05)" },
+          },
+          {
+            src: cocel + carousel_imgs + "CO2.jpg",
+            style: { transform: "scale(1.05)" },
+          },
+          {
+            src: cocel + carousel_imgs + "CO3.png",
+            style: { transform: "scale(1)" },
+          },
+          {
+            src: cocel + carousel_imgs + "CO4.png",
+            style: { transform: "scale(1)" },
+          },
         ]}
       />
 
@@ -80,12 +199,21 @@ function ProductDesign() {
         subtitle="2024"
         description="Igloo desk is a studying desk combined with a beautiful harmonic mix of both organic and geometric shapes, inspired by the igloo with the aim of isolation for a better concentration result. It is ideal for studying and remote working as it has good lighting, a space for all the needed tools, a small fountain on the side that is calming and stress-reducing, which also results in helping the user to experience less distraction and a more productive time working."
         mainImage={igloo + "Igloomain.png"}
-        MainImageStyle={{ width: '350px', margin: '0 80px 0 0' }}
+        MainImageStyle={{ width: "350px", margin: "0 80px 0 0" }}
         descMarginTop={60}
         carouselImages={[
-          { src: igloo + carousel_imgs + "IG1.jpg", style: { transform: 'scale(1.2)' } },
-          { src: igloo + carousel_imgs + "IG2.png", style: { transform: 'scale(1.2)' } },
-          { src: igloo + carousel_imgs + "IG3.png", style: { transform: 'scale(1.2)' } },
+          {
+            src: igloo + carousel_imgs + "IG1.jpg",
+            style: { transform: "scale(1.2)" },
+          },
+          {
+            src: igloo + carousel_imgs + "IG2.png",
+            style: { transform: "scale(1.2)" },
+          },
+          {
+            src: igloo + carousel_imgs + "IG3.png",
+            style: { transform: "scale(1.2)" },
+          },
         ]}
       />
     </div>
