@@ -30,19 +30,19 @@ function ProductDesign() {
         carouselImages={[
           {
             src: mcBench + "YES1.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: mcBench + "YES2.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: mcBench + "YES3.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: mcBench + "YES4.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
         ]}
       />
@@ -60,19 +60,19 @@ function ProductDesign() {
         carouselImages={[
           {
             src: vtub + "carousel/F1.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: vtub + "carousel/F3.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: vtub + "carousel/F4.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
           {
             src: vtub + "carousel/f5.jpg",
-            style: { transform: "scale(1.1) translate(0px, 0px)" },
+            className: "carousel-img-fill-lg",
           },
         ]}
       />

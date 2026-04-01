@@ -142,10 +142,27 @@ html, body {
   background-color: white;
 }
 
+.carousel-img-inner.carousel-img-fill {
+  object-fit: cover;
+  transform: scale(1.08);
+}
+
+.carousel-img-inner.carousel-img-fill-lg {
+  object-fit: cover;
+  transform: scale(1.16);
+}
+
 .carousel-img-inner:hover {
   transform: scale(1.05);
 }
 
+.carousel-img-inner.carousel-img-fill:hover {
+  transform: scale(1.12);
+}
+
+.carousel-img-inner.carousel-img-fill-lg:hover {
+  transform: scale(1.22);
+}
 /* 🆕 Modal Styles */
 .image-modal {
   position: fixed;

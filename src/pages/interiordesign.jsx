@@ -28,7 +28,7 @@ import T8 from "/assets/interiors/TorreDivina/terrace222.jpg";
 // TONBO
 import TB1 from "/assets/interiors/tonbo/1.jpg";
 import TB2 from "/assets/interiors/tonbo/3.jpg";
-import TB3 from "/assets/interiors/tonbo/4.jpg";
+import TB3 from "/assets/interiors/tonbo/4.png";
 
 // BENGASI
 import B1 from "/assets/interiors/bengasi/1.jpg";
@@ -57,11 +57,11 @@ The project was developed through numerous revisions together with the homeowner
         carouselImages={[
           { src: B1, style: { transform: "scale(1.1) translate(0px, 0px)" } },
           { src: B2, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: B5, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: B3, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: B4, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: B6, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: B7, style: { transform: "scale(1.1) translate(0px, 0px)" } },
+          { src: B5, className: "carousel-img-fill-lg" },
+          { src: B3, className: "carousel-img-fill-lg" },
+          { src: B4, className: "carousel-img-fill" },
+          { src: B6, className: "carousel-img-fill" },
+          { src: B7, className: "carousel-img-fill" },
         ]}
         DescMaxWidth={descwidth}
       />
@@ -72,9 +72,9 @@ The project was developed through numerous revisions together with the homeowner
 The space is designed as a concept for a café, with particular attention to minimalism and artificial lighting, which gives the environment a modern and contemporary feel.
 The main goal is to create a place that is elegant yet welcoming, suitable for all kinds of people. The project also aims to make the most of the available space by including as many tables as possible, while maintaining privacy and comfort for customers as a fundamental requirement."
         carouselImages={[
-          { src: TB1, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: TB2, style: { transform: "scale(1.1) translate(0px, 0px)" } },
-          { src: TB3, style: { transform: "scale(1.1) translate(0px, 0px)" } },
+          { src: TB1, className: "carousel-img-fill" },
+          { src: TB2, className: "carousel-img-fill" },
+          { src: TB3, className: "carousel-img-fill" },
         ]}
         DescMaxWidth={descwidth}
       />
